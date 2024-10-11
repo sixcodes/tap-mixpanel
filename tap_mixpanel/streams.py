@@ -41,7 +41,7 @@ class MixPanel:
     pagination = False
     parent_path = None
     parent_id_field = None
-    url = "https://mixpanel.com/api/2.0"
+    url = "https://data.mixpanel.com/api/2.0"
 
     def __init__(self, client: MixpanelClient):
         self.client = client
