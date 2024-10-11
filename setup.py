@@ -10,7 +10,7 @@ setup(name='tap-mixpanel',
       py_modules=['tap_mixpanel'],
       install_requires=[
           'backoff==2.2.1',
-          'requests==2.22.0',
+          'requests==2.32.2',
           'singer-python==6.0.0',
           'jsonlines==1.2.0'
       ],
